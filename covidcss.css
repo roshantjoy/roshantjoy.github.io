@@ -1,0 +1,88 @@
+html,body{
+    max-width:100%;
+    overflow-x:hidden;
+}
+   @media(min-width:769px){
+   header{
+   background-image: url("pics/headersm.jpg");
+   background-size: cover;
+   color:rgb(255, 255, 255);
+   height:700px;
+   line-height:80%;
+   font-size: 160%; }
+   
+}
+@media (max-width:768px){
+    header{
+    background-image: url("pics/headersmre.jpg");
+    background-size: cover;
+    color:rgb(255, 255, 255);
+    height:700px;
+    line-height:30%;
+    font-size: 160%; }
+   
+}
+
+a[class="nav-link"]{
+    color:rgb(44, 105, 121) !important;
+    font-weight: bold;
+}
+.nav-item{
+    
+    font-size: 75%;
+    
+}
+.h1{
+    font-size: 250%;
+}
+.cards{
+    padding: 10%;
+}
+.card{
+    height: 250px;
+    
+    
+}
+.colorcards{
+    background:linear-gradient(to bottom right,#d86fa9,#ffffff);
+    width: 100%;
+}
+.cardb{
+    border-radius: 19px;
+    background-color: white;
+}
+.intro{
+    background-image: url("pics/fixedbg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.p{
+    font-size: 120%;
+  
+}
+.introa{
+    margin:0 auto;
+    padding:50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+img{
+ height:400px;
+}
+.con{
+    padding: 5%;
+}
+.rc{
+    padding: 2%;
+}
+.columngap{
+    column-gap: 11%;
+}
+.final{
+    padding:5%;
+   background-color: thistle;
+    font-size: 110%;
+}
+.thank{
+    font-size: 400%;
+}
